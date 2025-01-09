@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    font-family: 'FontF';
+}
+@font-face {
+    font-family: FontF;
+    src: url("../fonts/ProximaNova-Semibold.ttf");
+}
+:root {
+    --btn: #2A1A80;
+    --textbtn: #FFFFFF;
+}
+:root {
+	--black: #0d0d0d;
+	--dark: #404040;
+	--gray: #8c8c8c;
+	--grey: #bfbfbf;
+	--greyt: #f2f2f2;
+	--white: #fff;
+	--teal: #025951;
+	--premium-white: #fff;
+	--premium-black-10: rgba(0, 0, 0, 0.1);
+	--premium-black-40: rgba(0, 0, 0, 0.4);
+	--premium-black: #000;
+	--premium-deep-blue: #2a1a80;
+	--premium-nepal: #99a8bf;
+}
+@media screen and (max-width: 1830px) {
+    .installation {
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+        .installationBlock {
+            .info-block{
+                .itemover{
+                    gap: 50px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1700px) {
+    .installation {
+        gap: 80px;
+        .installationBlock {
+            .info-block{
+                justify-content: space-between;
+                gap: 340px;
+                .itemover{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    .recommendationsBlock .info-block{
+        gap: 100px;
+    }
+    .remotecontroller{
+        .remotecontrollerBlock{
+            display: flex;
+            flex-direction: column;
+            .vidos{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1600px) {
+    main .production .productionBlock .content .info-block{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 1450px) {
+    header .header{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .application .applicationBlock{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 100px;
+    }
+}
+@media screen and (max-width: 1330px) {
+    header .header .right .icons .icon.Phone,
+    header .header .right .btn,
+    header .header nav ul {
+        display: none;
+    }
+    header .header .right .icons .icon.parametr{
+        display: flex;
+    }
+    header .header{
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 25px 40px;
+    }
+}

@@ -1,0 +1,1486 @@
+* {
+  margin: 0;
+  font-family: "FontF";
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  background-color: var(--premium-white);
+  box-sizing: border-box;
+  top: 86px;
+  left: 0px;
+  width: 100%;
+}
+.menu .number {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 20px;
+}
+.menu .number img {
+  width: 24px;
+  color: var(--premium-deep-blue);
+}
+.menu .number span {
+  font-size: 24px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu ul .butt {
+  padding: 20px;
+}
+.menu ul .butt .btnb {
+  background-color: #2A1A80;
+  border-radius: 6px 6px 18px 6px;
+  padding: 18px 32px;
+  color: var(--textbtn);
+  width: 335px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--premium-black);
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: FontF;
+  src: url("../fonts/ProximaNova-Semibold.ttf");
+}
+:root {
+  --btn: #2A1A80;
+  --textbtn: #FFFFFF;
+}
+
+:root {
+  --black: #0d0d0d;
+  --dark: #404040;
+  --gray: #8c8c8c;
+  --grey: #bfbfbf;
+  --greyt: #f2f2f2;
+  --white: #fff;
+  --teal: #025951;
+  --premium-white: #fff;
+  --premium-black-10: rgba(0, 0, 0, 0.1);
+  --premium-black-40: rgba(0, 0, 0, 0.4);
+  --premium-black: #000;
+  --premium-deep-blue: #2a1a80;
+  --premium-nepal: #99a8bf;
+}
+
+.btn {
+  background-color: #2A1A80;
+  border-radius: 6px 6px 18px 6px;
+  padding: 18px 32px;
+  color: var(--textbtn);
+}
+
+.btnwhite {
+  background-color: #FFFFFF;
+  border-radius: 6px 6px 18px 6px;
+  padding: 18px 32px;
+  color: var(--textbtn);
+}
+
+.arrows {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  width: 361px;
+  font-size: 24px;
+  line-height: 130%;
+  gap: 28px;
+}
+.textBlock p {
+  font-weight: 400;
+}
+.textBlock p span {
+  font-weight: 600;
+}
+.textBlock img {
+  width: 189px;
+  padding-top: 360px;
+}
+
+.Header {
+  max-width: 1920px;
+  width: 100%;
+}
+.Header img {
+  width: 100%;
+}
+
+header {
+  display: inline-flex;
+  justify-content: center;
+  max-width: 1920px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 30;
+}
+header .header {
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  max-width: 1920px;
+  width: 100%;
+  padding: 23px 80px;
+  border-bottom: 1px solid var(--greyt);
+}
+header .header .logo {
+  display: flex;
+}
+header .header nav ul {
+  display: inline-flex;
+  gap: 60px;
+}
+header .header nav ul li {
+  list-style: none;
+}
+header .header nav ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+header .header .right {
+  display: inline-flex;
+  gap: 19px;
+}
+header .header .right .btn {
+  background-color: #2A1A80;
+  padding: 16px 40px;
+}
+header .header .right .icons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+header .header .right .icons .icon {
+  width: 32px;
+}
+header .header .right .icons .parametr {
+  display: none;
+}
+
+.bannerimage {
+  height: 850px;
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+  z-index: -20;
+  background-image: url("../img/banner.png");
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 194px;
+}
+main .banner {
+  position: absolute;
+  top: 130px;
+}
+main .banner .bannerBlock {
+  display: inline-flex;
+  gap: 28px;
+}
+main .banner .bannerBlock .BannerText {
+  display: flex;
+  flex-direction: column;
+  gap: 330px;
+  height: 100%;
+  justify-content: space-between;
+}
+main .banner .bannerBlock .BannerText .subtitle {
+  padding: 80px 0px 0px 80px;
+}
+main .banner .bannerBlock .BannerText .subtitle span {
+  display: flex;
+  width: 1090px;
+  font-size: 144px;
+  color: var(--textbtn);
+  letter-spacing: -0.03em;
+  line-height: 110%;
+}
+main .banner .bannerBlock .BannerText .btns {
+  display: inline-flex;
+  gap: 40px;
+  padding: 0px 0px 80px 80px;
+}
+main .banner .bannerBlock .BannerText .btns .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: black;
+  padding: 18px 92px;
+}
+main .banner .bannerBlock .BannerText .btns .btn .btnA {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+main .banner .bannerBlock .BannerText .btns .btnb {
+  border: 2px solid white;
+  border-radius: 6px 6px 18px 6px;
+  padding: 18px 52px;
+}
+main .banner .bannerBlock .BannerText .btns .btnb .btnA {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+main .banner .bannerBlock .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 80px;
+  color: white;
+  gap: 40px;
+  max-width: 430px;
+  width: 100%;
+}
+main .banner .bannerBlock .text p {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 130%;
+}
+main .banner .bannerBlock .text span {
+  max-width: 395px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+main .production .productionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 200px 80px 0px 80px;
+  box-sizing: border-box;
+}
+main .production .productionBlock .subtitle {
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 95%;
+  letter-spacing: -0.03em;
+  color: var(--premium-black);
+}
+main .production .productionBlock .content {
+  display: inline-flex;
+  gap: 0px;
+  justify-content: space-between;
+}
+main .production .productionBlock .content .textBlock {
+  display: flex;
+  flex-direction: column;
+  width: 361px;
+  font-size: 24px;
+  line-height: 130%;
+  gap: 28px;
+}
+main .production .productionBlock .content .textBlock p {
+  font-weight: 800px;
+}
+main .production .productionBlock .content .textBlock p span {
+  font-weight: 600px;
+}
+main .production .productionBlock .content .textBlock img {
+  width: 189px;
+  padding-top: 360px;
+}
+main .production .productionBlock .content .info-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px 60px;
+}
+main .production .productionBlock .content .info-block .item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .production .productionBlock .content .info-block .item .svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed var(--premium-nepal);
+  border-radius: 6px 6px 18px 6px;
+  width: 96px;
+  height: 96px;
+}
+main .production .productionBlock .content .info-block .item .text {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 479px;
+}
+main .production .productionBlock .content .info-block .item .text p {
+  width: 330px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: var(--premium-black);
+}
+main .production .productionBlock .content .info-block .item .text .p {
+  width: 370px;
+}
+main .production .productionBlock .content .info-block .item .text span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: var(--premium-black);
+}
+
+.advantages .advantagesBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--premium-white);
+  max-height: 995px;
+  height: 100%;
+}
+.advantages .advantagesBlock .text {
+  display: flex;
+  flex-direction: column;
+  background: rgb(17, 10, 51);
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 72px 0px 80px 80px;
+  max-height: 995px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.advantages .advantagesBlock .text .subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 63px;
+}
+.advantages .advantagesBlock .text .subtitle span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.advantages .advantagesBlock .text .subtitle p {
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: var(--white);
+}
+.advantages .advantagesBlock .text .info {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.advantages .advantagesBlock .text .info p {
+  max-width: 500px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: var(--white);
+}
+.advantages .advantagesBlock .text .info .btnwhite {
+  background-color: transparent;
+  border: 2px solid var(--white);
+  border-radius: 6px 6px 18px 6px;
+  padding: 18px 44px;
+  width: 249px;
+}
+.advantages .advantagesBlock .text .info .btnwhite .btnA {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+.advantages .advantagesBlock .content {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  max-height: 995px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.advantages .advantagesBlock .content .vidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantages .advantagesBlock .content .vidos .img {
+  display: flex;
+  position: absolute;
+  z-index: -2;
+}
+.advantages .advantagesBlock .content .vidos .img .rel {
+  width: 100%;
+  max-width: 960px;
+}
+.advantages .advantagesBlock .content .vidos .abs {
+  display: flex;
+  position: relative;
+  width: 104px;
+  z-index: 2;
+}
+.advantages .advantagesBlock .content .info-block {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid var(--premium-black-10);
+  border-top: 2px solid var(--premium-black-10);
+  padding: 40px 60px 55px 60px;
+  gap: 100px;
+}
+.advantages .advantagesBlock .content .info-block .subtitle {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: var(--premium-deep-blue);
+}
+.advantages .advantagesBlock .content .info-block ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 54px;
+}
+.advantages .advantagesBlock .content .info-block ul li {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: var(--premium-black);
+  gap: 10px;
+}
+
+.recommendationsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+  padding: 0px 80px;
+}
+.recommendationsBlock .subtitle p {
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  max-width: 1040px;
+  width: 100%;
+}
+.recommendationsBlock .subtitle p span {
+  color: var(--premium-deep-blue);
+}
+.recommendationsBlock .info-block {
+  display: inline-flex;
+  gap: 200px;
+}
+.recommendationsBlock .info-block .recommendation {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.recommendationsBlock .info-block .recommendation .subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+}
+.recommendationsBlock .info-block .recommendation .line {
+  border: 2px solid var(--premium-black);
+  width: 440px;
+  height: 0px;
+}
+.recommendationsBlock .info-block .recommendation .linegray {
+  border: 2px solid var(--premium-nepal);
+  width: 980px;
+  height: 0px;
+}
+.recommendationsBlock .info-block .recommendation p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: var(--premium-black);
+}
+.recommendationsBlock .info-block .recommendation span {
+  width: 900px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: var(--premium-nepal);
+}
+.recommendationsBlock .info-block .OneColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 228px;
+}
+.recommendationsBlock .info-block .OneColumn .recommendation p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--premium-black);
+}
+.recommendationsBlock .info-block .OneColumn .recommendation .p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--premium-black);
+  opacity: 0.4;
+}
+.recommendationsBlock .info-block .TwoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 108px;
+}
+.recommendationsBlock .info-block .TwoColumn .row {
+  display: inline-flex;
+  gap: 100px;
+}
+
+.mechanism {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.mechanismBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 40px;
+  gap: 40px;
+}
+.mechanismBlock .frame2 {
+  background-image: url("../img/mechanism2.png");
+}
+.mechanismBlock .frame {
+  background-image: url("../img/mechanism1.png");
+}
+.mechanismBlock .frame,
+.mechanismBlock .frame2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 80px 80px 62px 80px;
+  gap: 134px;
+}
+.mechanismBlock .frame .text,
+.mechanismBlock .frame2 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  color: var(--premium-white);
+}
+.mechanismBlock .frame .text .subtitle,
+.mechanismBlock .frame2 .text .subtitle {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+.mechanismBlock .frame .text .info,
+.mechanismBlock .frame2 .text .info {
+  width: 600px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+.mechanismBlock .frame .order,
+.mechanismBlock .frame2 .order {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+}
+.mechanismBlock .frame .order .btnwhite,
+.mechanismBlock .frame2 .order .btnwhite {
+  color: var(--premium-deep-blue);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -2%;
+}
+.mechanismBlock .frame .order .price,
+.mechanismBlock .frame2 .order .price {
+  color: var(--premium-white);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+
+.framepullBlock {
+  padding: 0px 80px;
+}
+.framepullBlock .framepull {
+  display: inline-flex;
+  gap: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 18px 18px 36px 18px;
+  background-color: var(--premium-nepal);
+  color: var(--premium-white);
+  padding: 20px;
+}
+.framepullBlock .framepull .img {
+  max-height: 640px;
+  height: 100%;
+}
+.framepullBlock .framepull .content {
+  display: flex;
+  flex-direction: column;
+  gap: 124px;
+  padding: 48px 0px 0px 0px;
+}
+.framepullBlock .framepull .content .info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.framepullBlock .framepull .content .info .subtitle {
+  max-width: 680px;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+.framepullBlock .framepull .content .info .text {
+  max-width: 637px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.framepullBlock .framepull .content .info .smalltext {
+  max-width: 413px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -2%;
+}
+.framepullBlock .framepull .content .price {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+
+.application {
+  padding: 0px 80px;
+}
+.application .applicationBlock {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+.application .applicationBlock .information {
+  display: flex;
+  flex-direction: column;
+  gap: 164px;
+}
+.application .applicationBlock .information .text {
+  display: flex;
+  flex-direction: column;
+  max-width: 880px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.application .applicationBlock .information .text span {
+  opacity: 0.4;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.application .applicationBlock .information .text .subtitle {
+  max-width: 880px;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+}
+.application .applicationBlock .information .text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+.application .applicationBlock .information .social {
+  display: inline-flex;
+  gap: 20px;
+}
+.application .applicationBlock .information .social .svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--premium-black);
+  border-radius: 100px;
+  width: 64px;
+  height: 64px;
+}
+.application .applicationBlock .information .social .tg {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.application .applicationBlock .information .social .tg img {
+  padding: 10px;
+}
+.application .applicationBlock .form {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+.application .applicationBlock .form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  opacity: 0.4;
+}
+.application .applicationBlock .form .field p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.application .applicationBlock .form .field .line {
+  width: 642px;
+  height: 2px;
+  opacity: 0.2;
+  background-color: var(--premium-black);
+}
+.application .applicationBlock .form .field.gap {
+  gap: 92px;
+}
+.application .applicationBlock .form .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+}
+.application .applicationBlock .form .btn .btnA {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -2%;
+}
+
+.remotecontroller {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  width: 100%;
+  gap: 44px;
+}
+.remotecontroller .remotecontrollerBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--premium-white);
+}
+.remotecontroller .remotecontrollerBlock .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(17, 10, 51);
+  padding: 80px 80px 65px 80px;
+  box-sizing: border-box;
+}
+.remotecontroller .remotecontrollerBlock .content .info {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.remotecontroller .remotecontrollerBlock .content .info .subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+}
+.remotecontroller .remotecontrollerBlock .content .info .subtitle span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.remotecontroller .remotecontrollerBlock .content .info .subtitle p {
+  max-width: 750px;
+  width: 100%;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -3%;
+}
+.remotecontroller .remotecontrollerBlock .content .info .text {
+  max-width: 520px;
+  width: 100%;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+  opacity: 0.4;
+}
+.remotecontroller .remotecontrollerBlock .content .info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.remotecontroller .remotecontrollerBlock .content .info ul li {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.remotecontroller .remotecontrollerBlock .content .Price {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.remotecontroller .remotecontrollerBlock .content .Price .price {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+.remotecontroller .autoBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 40px;
+  gap: 40px;
+}
+.remotecontroller .autoBlock .frame2 {
+  background-image: url("../img/moto.png");
+}
+.remotecontroller .autoBlock .frame {
+  background-image: url("../img/auto.png");
+}
+.remotecontroller .autoBlock .frame,
+.remotecontroller .autoBlock .frame2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 80px 80px 74px 80px;
+  gap: 204px;
+}
+.remotecontroller .autoBlock .frame .text,
+.remotecontroller .autoBlock .frame2 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  color: var(--premium-white);
+}
+.remotecontroller .autoBlock .frame .text .subtitle,
+.remotecontroller .autoBlock .frame2 .text .subtitle {
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -3%;
+}
+.remotecontroller .autoBlock .frame .text .info,
+.remotecontroller .autoBlock .frame2 .text .info {
+  max-width: 470px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+.remotecontroller .autoBlock .frame .text .two,
+.remotecontroller .autoBlock .frame2 .text .two {
+  max-width: 700px;
+  width: 100%;
+}
+.remotecontroller .autoBlock .frame .btnwhite,
+.remotecontroller .autoBlock .frame2 .btnwhite {
+  display: flex;
+  justify-content: center;
+  max-width: 238px;
+  width: 100%;
+  color: var(--premium-deep-blue);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -2%;
+}
+
+.installation {
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+}
+.installation .installationBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+.installation .installationBlock .subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.installation .installationBlock .subtitle p {
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  max-width: 1320px;
+  width: 100%;
+}
+.installation .installationBlock .subtitle p span {
+  color: var(--premium-deep-blue);
+}
+.installation .installationBlock .subtitle .small {
+  max-width: 1070px;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+  opacity: 0.4;
+}
+.installation .installationBlock .info-block {
+  display: inline-flex;
+}
+.installation .installationBlock .info-block .itemover {
+  display: inline-flex;
+  gap: 100px;
+}
+.installation .installationBlock .info-block .itemover .two {
+  align-items: flex-start;
+}
+.installation .installationBlock .info-block .itemover .item.three {
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+.installation .installationBlock .info-block .item.one {
+  gap: 206px;
+}
+.installation .installationBlock .info-block .item {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.installation .installationBlock .info-block .item .Point {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.installation .installationBlock .info-block .item .Point .line {
+  width: 440px;
+  height: 2px;
+  background-color: var(--premium-black);
+}
+.installation .installationBlock .info-block .item .Point .inf {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.installation .installationBlock .info-block .item .Point .inf .sub-title {
+  display: inline-flex;
+  gap: 43px;
+}
+.installation .installationBlock .info-block .item .Point .inf .sub-title .number {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.installation .installationBlock .info-block .item .Point .inf .sub-title span {
+  max-width: 300px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.installation .installationBlock .info-block .item .Point .inf .text {
+  display: inline-flex;
+  gap: 50px;
+}
+.installation .installationBlock .info-block .item .Point .inf .text .smallLine {
+  width: 10px;
+  height: 1px;
+  background-color: var(--premium-black);
+  opacity: 0.4;
+}
+.installation .installationBlock .info-block .item .Point .inf .text p {
+  max-width: 300px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -2%;
+  opacity: 0.4;
+}
+.installation .installationBlock .info-block .item .Four {
+  color: rgb(153, 168, 191);
+}
+.installation .installationBlock .info-block .item .Four .line {
+  width: 720px;
+  background-color: rgb(153, 168, 191);
+}
+.installation .installationBlock .info-block .item .Four .inf .sub-title span {
+  max-width: 500px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+.installation .installationBlock .info-block .item .Four .inf .text p {
+  max-width: 470px;
+  font-size: 24px;
+}
+.installation .tracery img {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.installationcar .installationcarBlock {
+  padding-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.installationcar .installationcarBlock .VideoBlock {
+  display: inline-flex;
+}
+.installationcar .installationcarBlock .VideoBlock .video .relative {
+  position: relative;
+}
+.installationcar .installationcarBlock .VideoBlock .video .relative .absolute {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  color: var(--premium-white);
+}
+.installationcar .installationcarBlock .VideoBlock .video .relative .absolute .sub-title p {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+}
+.installationcar .installationcarBlock .VideoBlock .video .relative .absolute .pause {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.installationcar .installationcarBlock .VideoBlock .video .relative .absolute .parametrs {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.questions {
+  padding: 0px 80px;
+}
+.questions .applicationBlock {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.questions .applicationBlock .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 164px;
+}
+.questions .applicationBlock .information .text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.questions .applicationBlock .information .text span {
+  opacity: 0.4;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.questions .applicationBlock .information .text .subtitle {
+  max-width: 880px;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+.questions .applicationBlock .information .text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+.questions .applicationBlock .information .social {
+  display: inline-flex;
+  gap: 20px;
+}
+.questions .applicationBlock .information .social .svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--premium-black);
+  border-radius: 100px;
+  width: 64px;
+  height: 64px;
+}
+.questions .applicationBlock .information .social .tg {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.questions .applicationBlock .information .social .tg img {
+  padding: 10px;
+}
+.questions .applicationBlock .form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+}
+.questions .applicationBlock .form .field.black .line {
+  opacity: 1;
+  background-color: #000;
+}
+.questions .applicationBlock .form .field,
+.questions .applicationBlock .form .inline {
+  display: flex;
+  flex-direction: column;
+}
+.questions .applicationBlock .form .field .block,
+.questions .applicationBlock .form .inline .block {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.questions .applicationBlock .form .field .block svg,
+.questions .applicationBlock .form .inline .block svg {
+  opacity: 0.6;
+}
+.questions .applicationBlock .form .field .text,
+.questions .applicationBlock .form .inline .text {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  gap: 24px;
+}
+.questions .applicationBlock .form .field .text p,
+.questions .applicationBlock .form .inline .text p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  opacity: 1;
+}
+.questions .applicationBlock .form .field .text span,
+.questions .applicationBlock .form .inline .text span {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.questions .applicationBlock .form .field .span,
+.questions .applicationBlock .form .inline .span {
+  padding: 30px 0px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+}
+.questions .applicationBlock .form .field p,
+.questions .applicationBlock .form .inline p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  opacity: 0.6;
+}
+.questions .applicationBlock .form .field .line,
+.questions .applicationBlock .form .inline .line {
+  width: 100%;
+  height: 2px;
+  opacity: 0.6;
+  background-color: var(--premium-black);
+}
+.questions .applicationBlock .form .field.gap p {
+  padding: 30px 0px;
+}
+.questions .applicationBlock .form .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+}
+.questions .applicationBlock .form .btn .btnA {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -2%;
+}
+
+.delivery {
+  padding-top: 90px;
+}
+.delivery .deliveryBlock {
+  display: inline-flex;
+  width: 100%;
+  background-color: rgb(17, 10, 51);
+  color: var(--premium-white);
+  padding: 70px 0 80px 0px;
+  position: relative;
+}
+.delivery .deliveryBlock .deliverytext {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 73px 80px;
+  gap: 80px;
+}
+.delivery .deliveryBlock .deliverytext .text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.delivery .deliveryBlock .deliverytext .text p {
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 100%;
+  max-width: 1036px;
+  width: 100%;
+}
+.delivery .deliveryBlock .deliverytext .text span {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  color: rgb(153, 168, 191);
+}
+.delivery .deliveryBlock .deliverytext .img img {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.delivery .deliveryBlock .info {
+  display: inline-flex;
+  gap: 80px;
+}
+.delivery .deliveryBlock .info .line {
+  width: 2px;
+  background-color: var(--premium-white);
+}
+.delivery .deliveryBlock .info .info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.delivery .deliveryBlock .info .info-block .item {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 560px;
+  width: 100%;
+}
+.delivery .deliveryBlock .info .info-block .item p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+}
+.delivery .deliveryBlock .info .info-block .item span {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--premium-black);
+  color: var(--premium-white);
+}
+footer .applicationBlock {
+  display: inline-flex;
+  justify-content: space-around;
+  padding: 120px 0px;
+  max-width: 1760px;
+  width: 100%;
+}
+footer .applicationBlock .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 164px;
+}
+footer .applicationBlock .information .text {
+  display: flex;
+  flex-direction: column;
+  max-width: 880px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+footer .applicationBlock .information .text .contact {
+  display: flex;
+  flex-direction: column;
+}
+footer .applicationBlock .information .text .contact .number,
+footer .applicationBlock .information .text .contact .mail {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+footer .applicationBlock .information .text .contact .number img,
+footer .applicationBlock .information .text .contact .mail img {
+  width: 32px;
+  color: var(--premium-white);
+}
+footer .applicationBlock .information .text .contact .number span,
+footer .applicationBlock .information .text .contact .mail span {
+  font-size: 24px;
+}
+footer .applicationBlock .information .text .subtitle {
+  flex-wrap: wrap;
+  max-width: 680px;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+footer .applicationBlock .information .text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+footer .applicationBlock .information .smalltext {
+  max-width: 424px;
+  width: 100%;
+  opacity: 0.4;
+}
+footer .applicationBlock .forma {
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+}
+footer .applicationBlock .forma .form {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+footer .applicationBlock .forma .form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  opacity: 0.4;
+}
+footer .applicationBlock .forma .form .field p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+footer .applicationBlock .forma .form .field .line {
+  width: 642px;
+  height: 2px;
+  background-color: var(--premium-white);
+  z-index: 10;
+}
+footer .applicationBlock .forma .form .field.gap {
+  gap: 92px;
+}
+footer .applicationBlock .forma .form .btnwhite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+}
+footer .applicationBlock .forma .form .btnwhite .btnA {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -2%;
+  color: var(--premium-black);
+}
+footer .applicationBlock .forma .soc {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .applicationBlock .forma .soc .social {
+  display: inline-flex;
+  gap: 20px;
+}
+footer .applicationBlock .forma .soc .social .svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--premium-deep-blue);
+  border-radius: 100px;
+  width: 64px;
+  height: 64px;
+}
+footer .applicationBlock .forma .soc .social .tg {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+footer .applicationBlock .forma .soc .social .tg img {
+  padding: 10px;
+}
+footer .applicationBlock .forma .soc .svglogo img {
+  max-width: 72px;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.successfully {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.successfully .successfullyBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.successfully .successfullyBlock p {
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 100%;
+}
+.successfully .successfullyBlock span {
+  text-align: center;
+  max-width: 427px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+}
+.successfully .successfullyBlock .btn {
+  max-width: 270px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
